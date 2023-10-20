@@ -1,7 +1,15 @@
-export default function App() {
+import React from 'react';
+import Home from './components/Home';
+import AIChat from './components/aichat';
+import TokenSwap from './components/transactioncard';
+
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div>
+      <Home />
+      <AIChat />
+    </div>
+  );
 }
+
+export default App;
